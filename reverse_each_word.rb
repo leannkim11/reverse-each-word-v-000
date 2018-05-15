@@ -9,7 +9,7 @@ words = string.split(" ")
 			new_string += word[end_loop]
 		end
 		new_sentence << new_string
-		new_sentence.join(" ")
+		new_sentence.split(" ")
 	end
 end
 
