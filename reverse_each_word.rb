@@ -11,7 +11,6 @@ words = string.split(" ")
 		new_sentence << new_string
 		new_sentence.join(" ")
 	end
-	new_sentence
 end
 
 # def reverse_each_word_two (string)
