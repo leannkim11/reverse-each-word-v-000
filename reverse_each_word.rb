@@ -9,9 +9,9 @@ words = string.split(" ")
 			new_string += word[end_loop]
 		end
 		new_sentence << new_string
-
+    new_sentence.split(" ")
 	end
-  new_sentence.split(" ")
+
 end
 
 # def reverse_each_word_two (string)
