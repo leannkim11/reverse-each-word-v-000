@@ -27,15 +27,15 @@ end
 # 	new_string
 # end
 
-def reverse_each_word (string)
-	arr = string.split
-	arr.collect do |word|
-	end_loop = word.length
-	new_string = ""
-	while end_loop > 0
-	end_loop -= 1
-		new_string += word[end_loop]
-	end
-new_string
-	end
-end
+# def reverse_each_word (string)
+# 	arr = string.split
+# 	arr.collect do |word|
+# 	end_loop = word.length
+# 	new_string = ""
+# 	while end_loop > 0
+# 	end_loop -= 1
+# 		new_string += word[end_loop]
+# 	end
+# new_string
+# 	end
+# end
