@@ -7,7 +7,6 @@ words = string.split(" ")
 		while end_loop > 0
       end_loop -= 1
 			new_string += word[end_loop]
-
 		end
 		new_sentence << new_string
 		new_sentence.join(" ")
